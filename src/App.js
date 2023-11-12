@@ -7,6 +7,7 @@ import conjunto_niño from '../src/img/conjunto_niño.jpg'
 import conjunto_niño_futbol from '../src/img/conjunto_niño_futbol.jpg'
 import botines from '../src/img/botines.jpg'
 import camicetas from '../src/img/camicetas.jpg'
+import Producto from './Components/Producto/Producto';
 const productos = [
   { id: 1, nombre: 'Abrigos', precio: 10.99, imagen: abrigos, descripcion: 'Buso de Algodon para hombre' },
   { id: 2, nombre: 'Conjuntos Adulto', precio: 19.99, imagen: conjunto_adultos, descripcion: 'Conjunto Deportivos adulto' },
@@ -18,24 +19,15 @@ const productos = [
 ];
 
 function App() {
+  
   return (
     <main className="App">
-      <div className="cards-container">
-        {productos.map((producto) => (
-          <div key={producto.id} className="card" style={{ width: '18rem' }}>
-            <img src={producto.imagen} className="card-img-top" alt={producto.nombre} />
-            <div className="card-body">
-              <h5 className="card-title">{producto.nombre}</h5>
-              <p className="card-text">Precio: ${producto.precio.toFixed(2)}</p>
-              <p className="card-text">Descripcion: {producto.descripcion}</p>
-             <button onClick={()=>console.log("Hizo una compra")}>Comprar </button>
-            </div>
-          </div>
-
-        ))}
-      </div>
-
-    </main>
+    <div className="cards-container">
+      {productos.map((producto) => (
+        <Producto key={producto.id} producto={producto} />
+      ))}
+    </div>
+  </main>
   );
 }
 
