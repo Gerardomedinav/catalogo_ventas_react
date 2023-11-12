@@ -39,4 +39,5 @@ npm start
 
 6. Abre tu navegador web y accede a [http://localhost:3000](http://localhost:3000) para ver la aplicación en funcionamiento.
 
-¡Listo!
+¡Listo!nano README.md
+

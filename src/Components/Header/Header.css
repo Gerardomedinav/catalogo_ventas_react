@@ -1,0 +1,31 @@
+header{
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+    height: 200px;
+
+
+}  
+  .App-logo {
+    height: 200px; /* Ajusta la altura de tu imagen según tus necesidades */
+    float: left; /* Hace que la imagen esté a la izquierda */
+    margin-right: 20px; /* Añade un margen derecho para separar la imagen de los títulos */
+  }
+  
+  .titles-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    text-align: left;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  
+  h1 {
+    margin: 0; /* Elimina el margen predeterminado para evitar espacio adicional */
+    margin-top: 15px;
+    font-size: 4em; /* Ajusta el tamaño de la fuente */
+    color: red;
+
+}
