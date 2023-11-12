@@ -1,31 +1,32 @@
-header{
-    margin: 0px;
-    padding: 0px;
-    background-color: aquamarine;
-    height: 200px;
-
-
-}  
-  .App-logo {
-    height: 200px; /* Ajusta la altura de tu imagen según tus necesidades */
-    float: left; /* Hace que la imagen esté a la izquierda */
-    margin-right: 20px; /* Añade un margen derecho para separar la imagen de los títulos */
-  }
-  
-  .titles-container {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-around;
-    text-align: left;
-    align-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+header {
+  margin: 0;
+  padding: 10px; /* Añade un relleno para mejorar la apariencia en dispositivos móviles */
+  background-color: aquamarine;
+  text-align: center; /* Centra el contenido en todos los tamaños de pantalla */
 }
-  
-  h1 {
-    margin: 0; /* Elimina el margen predeterminado para evitar espacio adicional */
-    margin-top: 15px;
-    font-size: 4em; /* Ajusta el tamaño de la fuente */
-    color: red;
 
+.App-logo {
+  height: 100px; /* Ajusta la altura de la imagen según tus necesidades */
+  margin-bottom: 10px; /* Añade un margen inferior para separar la imagen de los títulos */
+}
+
+.titles-container {
+  text-align: center; /* Centra el contenido en todos los tamaños de pantalla */
+}
+
+h1 {
+  font-size: 2em; /* Ajusta el tamaño de la fuente para dispositivos móviles */
+  color: red;
+  margin: 5px 0; /* Añade un pequeño margen superior e inferior para mejorar la apariencia */
+}
+
+/* Media query para ajustar estilos en pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+@media (max-width: 768px) {
+  .App-logo {
+      height: 80px; /* Ajusta la altura de la imagen para pantallas más pequeñas */
+  }
+
+  h1 {
+      font-size: 1.5em; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+  }
 }
