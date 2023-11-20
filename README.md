@@ -5,7 +5,7 @@
 
 Este proyecto es un ejercicio desarrollado en el marco de Argentina Programa con colaboración de la UTN Buenos Aires. Consiste en la creación de una aplicación utilizando React.js y Node.js.
 
-![Descripción de la imagen](./miapp/src/img/imagen_pagina.png)
+![Descripción de la imagen](./src/img/imagen_pagina.png)
 
 
 ## Tecnologías Utilizadas

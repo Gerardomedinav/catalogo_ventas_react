@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import abrigos from '../src/img/abrigos.jpg';
 import conjunto_adultos from '../src/img/conjunto_adultos.jpg';
 import conjunto_niño from '../src/img/conjunto_niño.jpg'
